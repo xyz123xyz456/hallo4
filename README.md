@@ -1,2 +1,2 @@
-<h1 align='center'>Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Video Diffusion Transformer</h1>
-Coming soon！
+<h1 align='center'>Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation</h1>
+# Coming soon！

@@ -126,7 +126,7 @@
         "template": "video-carousel",
         "props": {
             "id": "headwares",
-            "title": "Cross-ID ",
+            "title": "Cross-ID Animation",
             "items": [
                 "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/cross-id/11.mp4",
                 "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/cross-id/2.mp4"

@@ -1,0 +1,150 @@
+[
+    {
+        "template": "title",
+        "props": {
+            "title": "Hallo4",
+            "subtitle": "Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation",
+            "authors": [
+                [
+                    {
+                        "name": "Jiahao Cui",
+                        "homepage": "https://cuijh26.github.io",
+                        "suffix": "1*"
+                    },
+                    {
+                        "name": "Yan Chen",
+                        "homepage": "https://github.com/cbyzju",
+                        "suffix": "1*"
+                    },
+                    {
+                        "name": "Mingwang Xu",
+                        "homepage": "http://github.com/xumingw",
+                        "suffix": "1*"
+                    },
+                    {
+                        "name": "Hanlin Shang",
+                        "homepage": "https://github.com/NinoNeumann",
+                        "suffix": "1"
+                    },
+                    {
+                        "name": "Yuxuan Chen",
+                        "homepage": "https://github.com/xyz123xyz456/hallo4",
+                        "suffix": "1"
+                    },
+                    {
+                        "name": "Yun Zhan",
+                        "homepage": "https://github.com/subazinga",
+                        "suffix": "1"
+                    },
+                    {
+                        "name": "Zilong Dong",
+                        "homepage": "https://scholar.google.com/citations?user=GHOQKCwAAAAJ&hl=zh-CN&oi=ao",
+                        "suffix": "4"
+                    }
+                ],
+                [
+                    {
+                        "name": "Yao Yao",
+                        "homepage": "https://yoyo000.github.io/",
+                        "suffix": "3"
+                    },
+                    {
+                        "name": "Jingdong Wang",
+                        "homepage": "https://jingdongwang2017.github.io/",
+                        "suffix": "2"
+                    },
+                    {
+                        "name": "Siyu Zhu",
+                        "homepage": "https://sites.google.com/site/zhusiyucs/home",
+                        "suffix": "1"
+                    }
+                ],
+                [
+                    {
+                        "name": "Fudan University",
+                        "homepage": "",
+                        "prefix": "1"
+                    },
+                    {
+                        "name": "Baidu Inc.",
+                        "homepage": "",
+                        "prefix": "2"
+                    },
+                    {
+                        "name": "Nanjing University",
+                        "homepage": "",
+                        "prefix": "3"
+                    },
+                    {
+                        "name": "Alibaba Group",
+                        "homepage": "",
+                        "prefix": "4"
+                    }
+                ]
+            ],
+            "resources": {
+                "pdf": "https://arxiv.org/pdf/2505.23525",
+                "arxiv": "https://arxiv.org/pdf/2505.23525",
+                "github": "https://github.com/xyz123xyz456/hallo4",
+                "huggingface": "https://huggingface.co/fudan-generative-ai/hallo4"
+            },
+            "mainVideo": ""
+        }
+    },
+    {
+        "template": "video-carousel",
+        "props": {
+            "id": "background",
+            "title": "Rapid Rhythm",
+            "items": [
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/b_talk.mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/2025-05-23-12-28-30_004.mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/2025-05-23-08-55-21_cxk.mp4" 
+            ],
+            "count": 3
+        }
+    },
+    {
+        "template": "video-carousel",
+        "props": {
+            "id": "headpose",
+            "title": "Fast Motion",
+            "items": [
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/6%E6%9C%8810%E6%97%A5(1).mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/6%E6%9C%8810%E6%97%A5(2).mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/6%E6%9C%8810%E6%97%A5(4).mp4",
+
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/6%E6%9C%8810%E6%97%A5(3).mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/6%E6%9C%8810%E6%97%A5.mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/fast-motion/ours.mp4"
+                
+            ],
+            "count": 3
+        }
+    },
+    {
+        "template": "video-carousel",
+        "props": {
+            "id": "headwares",
+            "title": "Cross-ID ",
+            "items": [
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/cross-id/11.mp4",
+                "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/cross-id/2.mp4"
+            ],
+            "count": 1
+        }
+    },
+    {
+        "template": "abstract",
+        "props": {
+            "figure": "https://fusion-lab.oss-cn-shanghai.aliyuncs.com/hallo4/teasers.jpg",
+            "content": "Generating highly dynamic and photorealistic portrait animations driven by audio and skeletal motion remains challenging due to the need for precise lip synchronization, natural facial expressions, and high-fidelity body motion dynamics. We propose a human-preference-aligned diffusion framework that addresses these challenges through two key innovations. First, we introduce direct preference optimization tailored for human-centric animation, leveraging a curated dataset of human preferences to align generated outputs with perceptual metrics for portrait motion-video alignment and naturalness of expression. Second, the proposed temporal motion modulation resolves spatiotemporal resolution mismatches by reshaping motion conditions into dimensionally aligned latent features through temporal channel redistribution and proportional feature expansion, preserving the fidelity of high-frequency motion details in diffusion-based synthesis. The proposed mechanism is complementary to existing UNet and DiT-based portrait diffusion approaches, and experiments demonstrate obvious improvements in lip-audio synchronization, expression vividness, body motion coherence over baseline methods, alongside notable gains in human preference metrics. Our model and source code can be found at: https://github.com/xyz123xyz456/hallo4."
+        }
+    },
+    {
+        "template": "bibtex",
+        "props": {
+            "bibTeX": "@article{cui2025hallo4,\n\ttitle={Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation},\n\tauthor={Cui, Jiahao and Chen, Yan and Xu, Mingwang and Shang, Hanlin and Chen, Yuxuan and Zhan, Yun and Dong, Zilong and Yao, Yao and Wang, Jingdong and Zhu, Siyu},\n\tjournal={arXiv preprint arXiv:2505.23525},\n\tyear={2025}\n}"
+        }
+    }
+]

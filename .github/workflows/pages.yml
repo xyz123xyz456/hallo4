@@ -31,5 +31,5 @@ jobs:
           branch: gh-pages
           folder: dist
           # TODO: change repo name
-          repositorty-name: xyz123xyz456/hallo4
+          repository-name: xyz123xyz456/hallo4
           target-folder: /
